@@ -7,8 +7,8 @@ permalink: /VM/
 ### Table of Contents
 
 [VulnHubs](VulnHubs)
-[Try Hack Me](Try Hack Me)
-[Hack The Box](Hack The Box)
+[TryHackMe](Try Hack Me)
+[HackTheBox](Hack The Box)
 
 Some information about you!
 

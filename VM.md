@@ -4,7 +4,10 @@ title: Virtual Machine Write-Ups
 permalink: /VM/
 ---
 
+title: Table of Contents
 [VulnHubs](VulnHubs)
+[Try Hack Me](Try Hack Me)
+[Hack The Box](Hack The Box)
 
 Some information about you!
 

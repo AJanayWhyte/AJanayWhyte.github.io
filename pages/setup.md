@@ -23,7 +23,5 @@ Most often choosing a virtual machine software is all about preference. I person
 
 ### Linux Distributions
 
-### Oracle - Virtualbox configuration
 
-### VMware Workstation configuration
 

@@ -12,7 +12,7 @@ permalink: /VM/
 [HackTheBox](https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/pages/VM.md#hackthebox)<br>
 <hr>
 
-### [VulnHubs](link)
+ <span style="color:red">### [VulnHubs](link)</span>
 
  <a href="{{ site.baseurl }}/funbox4">Funbox: CTF - Medium</a><br>
 

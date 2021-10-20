@@ -13,6 +13,8 @@ permalink: /VM/
 
 #### VulnHubs
 
+ <a href="{{ site.baseurl }}/VM">Virtual Machine Write-Ups</a>
+
 #### TryHackMe
 
 #### HackTheBox

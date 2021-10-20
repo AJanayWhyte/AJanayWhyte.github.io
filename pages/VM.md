@@ -6,6 +6,7 @@ permalink: /VM/
 
 <hr>
 ### Table of Contents<br>
+[Virtual Machine Configuration](vm_setup)<br>
 [VulnHubs](VulnHubs)<br>
 [TryHackMe](Try Hack Me)<br>
 [HackTheBox](Hack The Box)

@@ -4,3 +4,7 @@ title: Setting up your Virtual Machine
 permalink: /setup/
 ---
 
+### Virtual Machine software
+
+There are several different types of virtual machine software. However, we will be discussing how to use and setup two different ones. Oracle virtualBox or VMware Workstation.
+

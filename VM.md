@@ -4,11 +4,13 @@ title: Virtual Machine Write-Ups
 permalink: /VM/
 ---
 
+<hr attribute1=”..” attribute2=”..”>
 ### Table of Contents
 
 [VulnHubs](VulnHubs)<br>
 [TryHackMe](Try Hack Me)<br>
 [HackTheBox](Hack The Box)
+<hr attribute1=”..” attribute2=”..”>
 
 Some information about you!
 

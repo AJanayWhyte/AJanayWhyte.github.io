@@ -7,7 +7,7 @@ permalink: /setup/
 <hr>
 ### Table of Contents<br>
 [Virtual Machine Software](https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/pages/setup.md#virtual-machine-software)<br>
-[Linux Distributions](link)
+[Linux Distributions](link)<br>
 [Oracle - VIrtualBox](link)<br>
 [VMware Workstation](link)<br>
 <hr>

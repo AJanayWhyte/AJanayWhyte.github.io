@@ -12,11 +12,11 @@ permalink: /VM/
 [HackTheBox](HackTheBox)<br>
 <hr>
 
-#### VulnHubs
+[#### VulnHubs](link)
 
  <a href="{{ site.baseurl }}/funbox4">Funbox: CTF - Medium</a><br>
 
-#### TryHackMe
+[#### TryHackMe](link)
 
-#### HackTheBox
+[#### HackTheBox](link)
 

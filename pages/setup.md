@@ -6,10 +6,9 @@ permalink: /setup/
 
 <hr>
 ### Table of Contents<br>
-<a href="{{ site.baseurl }}/setup">Virtual Machine Configuration</a><br>
 [Virtual Machine Software](https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/pages/setup.md#virtual-machine-software)<br>
-[TryHackMe](TryHackMe)<br>
-[HackTheBox](HackTheBox)<br>
+[Oracle - VIrtualBox](link)<br>
+[VMware Workstation](link)<br>
 <hr>
 
 ### Virtual Machine software

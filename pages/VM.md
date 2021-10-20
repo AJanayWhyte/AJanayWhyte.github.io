@@ -13,7 +13,7 @@ permalink: /VM/
 
 #### VulnHubs
 
- <a href="{{ site.baseurl }}/funbox4">Funbox: CTF - Medium</a>
+ <a href="{{ site.baseurl }}/funbox4">Funbox: CTF - Medium</a><br>
 
 #### TryHackMe
 

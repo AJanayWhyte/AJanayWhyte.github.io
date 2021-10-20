@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VMware Workstation COnfiguration
+title: VMware Workstation Configuration
 permalink: /vmware/
 ---
 

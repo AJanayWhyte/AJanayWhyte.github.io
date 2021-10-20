@@ -9,5 +9,5 @@ permalink: /setup/
 There are several different types of virtual machine software. However, we will discuss how to use and setup two different ones. Oracle virtualBox or VMware Workstation.
 
 ![Oracle - VirtualBox]({{ site.baseurl }}/images/VM/OVB.jpg)
-![VMware - Workstation]({{ site.baseurl }}/images/VM/VM.png){:height="35%" width="35%"}
+![VMware - Workstation]({{ site.baseurl }}/images/VM/VM.png){:height="35%" width="35%"}<br>
 Click the image to access the download

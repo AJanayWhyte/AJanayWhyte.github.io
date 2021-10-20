@@ -19,7 +19,7 @@ permalink: /setup/
 
 There are several different types of virtual machine software. However, we will discuss how to use and setup two different ones. They are called Oracle virtualBox or VMware Workstation.
 
-<a href="{{ site.baseurl }}https://www.virtualbox.org/wiki/Downloads/">Virtual Machine Configuration</a><br>
+<a href="{{ site.baseurl }}https://www.virtualbox.org/wiki/Downloads/">Oracle - Virtualbox Download</a><br>
 
 Oracle - VirtualBox|VMware - workstation
 :-------------------------:|:-------------------------:

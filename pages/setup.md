@@ -6,7 +6,7 @@ permalink: /setup/
 
 ### Virtual Machine software
 
-There are several different types of virtual machine software. However, we will discuss how to use and setup two different ones. Oracle virtualBox or VMware Workstation.
+There are several different types of virtual machine software. However, we will discuss how to use and setup two different ones. They are called Oracle virtualBox or VMware Workstation.
 
 Oracle - VirtualBox|VMware - workstation
 :-------------------------:|:-------------------------:

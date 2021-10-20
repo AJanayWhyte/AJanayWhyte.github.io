@@ -4,6 +4,8 @@ title: Virtual Machine Write-Ups
 permalink: /VM/
 ---
 
+[VulnHubs](VulnHubs)
+
 Some information about you!
 
 ### More Information

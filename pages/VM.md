@@ -7,8 +7,9 @@ permalink: /VM/
 <hr>
 ### Table of Contents<br>
 <a href="{{ site.baseurl }}/setup">Virtual Machine Configuration</a><br>
-[TryHackMe](Try Hack Me)<br>
-[HackTheBox](Hack The Box)
+[Vulnhubs](Vulnhubs)<br>
+[TryHackMe](TryHackMe)<br>
+[HackTheBox](HackTheBox)<br>
 <hr>
 
 #### VulnHubs

@@ -3,7 +3,9 @@ layout: page
 title: Setting up your Virtual Machine
 permalink: /setup/
 ---
-
+---
+{:.no_toc}
+---
 
 <hr>
 ### Table of Contents<br>

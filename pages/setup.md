@@ -3,14 +3,11 @@ layout: page
 title: Setting up your Virtual Machine
 permalink: /setup/
 ---
----
-{:.no_toc}
----
 
 <hr>
 ### Table of Contents<br>
 <a href="{{ site.baseurl }}/setup">Virtual Machine Configuration</a><br>
-[Vulnhubs](Vulnhubs)<br>
+[Virtual Machine Software](https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/pages/setup.md#virtual-machine-software)<br>
 [TryHackMe](TryHackMe)<br>
 [HackTheBox](HackTheBox)<br>
 <hr>

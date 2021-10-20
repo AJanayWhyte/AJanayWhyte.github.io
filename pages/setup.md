@@ -21,4 +21,9 @@ Most often choosing a virtual machine software is all about preference. I person
 [Oracle VirtualBox Download](https://www.virtualbox.org/wiki/Downloads/)<br>
 [VMware Workstation Download](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
 
+### Linux Distributions
+
+### Oracle - Virtualbox configuration
+
+### VMware Workstation configuration
 

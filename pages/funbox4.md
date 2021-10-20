@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Funbox CTF
+title: Funbox CTF - Medium
 permalink: /funbox4/
 ---
 

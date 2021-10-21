@@ -37,9 +37,18 @@ This will bring you back to the original window. Press the machine menu selectio
 ![step6]({{ site.baseurl }}/images/VM/vbox/vboxx_2.png)<br>
 
 #### Step 7:
+Select Network on the left hand side. 
 
 ![step7]({{ site.baseurl }}/images/VM/vbox/vboxx_3.png)<br>
+
 #### Step 8:
+Click to check the "enable Network adapter box. 
+
 ![step8]({{ site.baseurl }}/images/VM/vbox/vboxx_4.png)<br>
+
 #### Step 9:
+Lastly, select the drop down window for attached to and select Nat Network. This will add the newly created nat network that we created a few steps ago. From there select OK. We're all done!
+
 ![step9]({{ site.baseurl }}/images/VM/vbox/vboxx_5.png)<br>
+
+### Congrats you have configured your VirtualBox!

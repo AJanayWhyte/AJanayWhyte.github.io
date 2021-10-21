@@ -7,13 +7,17 @@ permalink: /vbox/
 Follow these instructions to help configure your Oracle - Virtualbox.
 
 #### Step 1:
-Before making any changes to your virtualbox settings, make sure that your machine is powered off. Then click file and then preferences.
+Before making any changes to your virtualbox settings, make sure that your machine is powered off.
 
 ![step1]({{ site.baseurl }}/images/VM/vbox/vboxx_10.png)<br>
 
 #### Step 2:
+Then click file and then preferences.
+ 
 ![step2]({{ site.baseurl }}/images/VM/vbox/vboxx_6.png)<br>
+
 #### Step 3:
+
 ![step3]({{ site.baseurl }}/images/VM/vbox/vboxx_7.png)<br>
 #### Step 4:
 ![step4]({{ site.baseurl }}/images/VM/vbox/vboxx_8.png)<br>

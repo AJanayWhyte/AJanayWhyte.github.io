@@ -4,8 +4,12 @@ title: Oracle - Virtualbox Configuration
 permalink: /vbox/
 ---
 
-Configuring your Virtualbox is very important. When using a virtual machine it is an extension of the main network that you use to gain access to the internet and any devices that connect to the internet. Follow these instructions to help configure your Oracle - Virtualbox.
+Follow these instructions to help configure your Oracle - Virtualbox.
+
 #### Step 1:
+Before making any changes to your virtualbox settings, make sure that your machine is powered off. Then click the file option.
+
+![step1]({{ site.baseurl }}/images/VM/vbox/vboxx_10.png)<br>
 ![step1]({{ site.baseurl }}/images/VM/vbox/vboxx_1.png)<br>
 #### Step 2:
 ![step2]({{ site.baseurl }}/images/VM/vbox/vboxx_6.png)<br>

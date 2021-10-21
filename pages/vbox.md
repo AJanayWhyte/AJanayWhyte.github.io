@@ -11,7 +11,7 @@ Configuring your Virtualbox is very important. When using a virtual machine it i
 ![step3]({{ site.baseurl }}/images/VM/vbox/vboxx_7.png)<br>
 ![step4]({{ site.baseurl }}/images/VM/vbox/vboxx_8.png)<br>
 ![step5]({{ site.baseurl }}/images/VM/vbox/vboxx_9.png)<br>
-![step6]({{ site.baseurl }}/images/VM/vbox/config.png)<br>
-![step7]({{ site.baseurl }}/images/VM/vbox/config.png)<br>
-![step8]({{ site.baseurl }}/images/VM/vbox/config.png)<br>
-![step9]({{ site.baseurl }}/images/VM/vbox/config.png)<br>
+![step6]({{ site.baseurl }}/images/VM/vbox/vboxx_2.png)<br>
+![step7]({{ site.baseurl }}/images/VM/vbox/vboxx_3.png)<br>
+![step8]({{ site.baseurl }}/images/VM/vbox/vboxx_4.png)<br>
+![step9]({{ site.baseurl }}/images/VM/vbox/vboxx_5.png)<br>

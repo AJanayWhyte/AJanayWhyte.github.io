@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VMware Workstation Configuration
+title: VMware Player Configuration
 permalink: /vmware/
 ---
 

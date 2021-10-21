@@ -17,11 +17,17 @@ Then click file and then preferences.
 ![step2]({{ site.baseurl }}/images/VM/vbox/vboxx_6.png)<br>
 
 #### Step 3:
+A new window will open up. Select network on the left hand side. Then click the green plus sign on the right hand side. 
 
 ![step3]({{ site.baseurl }}/images/VM/vbox/vboxx_7.png)<br>
+
 #### Step 4:
+A new nat network will appear with a check in the active box. Press the OK button. 
+
 ![step4]({{ site.baseurl }}/images/VM/vbox/vboxx_8.png)<br>
+
 #### Step 5:
+
 ![step5]({{ site.baseurl }}/images/VM/vbox/vboxx_9.png)<br>
 #### Step 6:
 ![step5]({{ site.baseurl }}/images/VM/vbox/vboxx_1.png)<br>

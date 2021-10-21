@@ -20,6 +20,8 @@ Before making any changes to your virtualbox settings, make sure that your machi
 #### Step 5:
 ![step5]({{ site.baseurl }}/images/VM/vbox/vboxx_9.png)<br>
 #### Step 6:
+![step5]({{ site.baseurl }}/images/VM/vbox/vboxx_1.png)<br>
+
 ![step6]({{ site.baseurl }}/images/VM/vbox/vboxx_2.png)<br>
 #### Step 7:
 ![step7]({{ site.baseurl }}/images/VM/vbox/vboxx_3.png)<br>

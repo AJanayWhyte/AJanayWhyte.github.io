@@ -25,6 +25,8 @@ Most often choosing a virtual machine software is all about preference. I person
 
 Linux is one of the world's leading operating systems and a leading competitor. Everyday it is being used to work hand in hand with other operating systems such as Windows, Mac, and Android. Linux is also used within several different softwares to create new versions of operating systems. These new operating systems are called distributions. There are over 600 different Linux distributions. Every Linux distribution has different advantages of use and can be used in both personal and business states. We will concentrate on one of the most popular Linux Distributions, Kali linux. You can find more information about Linux Distributions in the link below. You can find the link to download Kali linux [here](https://www.kali.org/docs/introduction/download-official-kali-linux-images/). 
 
+Kali Linux is a Debian distribution. It is also open-source which means its whole entirety is maintained by the world and is updated everyday. It comes built with hundreds of free tools geared towards cybersecurity professionals and even those who want to just learn and have fun. As a person who is on both sides of the spectrum I work with Kali Linux to both learn and explore to advance my skillset and see how well I do working with new tools. 
+
 
 [Click for more information...](https://www.redhat.com/en/topics/linux/whats-the-best-linux-distro-for-you)
 

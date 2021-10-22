@@ -79,4 +79,9 @@ From there, Select storage on the left side of the window. Click empty under sto
 
 #### Step 12:
 
+When the extension window pops out select choose a disk file... from the list. 
+
 ![step12]({{ site.baseurl }}/images/pfsense/pfsensee_15.png){:height="50%" width="50%"}<br>
+
+#### Step 13:
+![step13]({{ site.baseurl }}/images/pfsense/pfsensee_16.png)

@@ -67,6 +67,10 @@ We will set up two different network adapters. For adapter one change the attach
 ![step9]({{ site.baseurl }}/images/pfsense/pfsensee_12.png)<br>
 
 #### Step 10:
-
+Enable the 2nd adapter and change the attached to drop down to Internal Network. This will allow the internet connection that is flowing through to create it's own internal network. 
 
 ![step10]({{ site.baseurl }}/images/pfsense/pfsensee_13.png)<br>
+
+#### Step 11:
+
+![step11]({{ site.baseurl }}/images/pfsense/pfsensee_14.png)<br>

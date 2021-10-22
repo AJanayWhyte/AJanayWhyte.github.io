@@ -6,8 +6,7 @@ permalink: /setup/
 
 <hr>
 ### Table of Contents<br>
-[Virtual Machine Software](https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/pages/setup.md#virtual-machine-software)<br>
-[Linux Distributions](link)<br>
+
 <a href="{{ site.baseurl }}/vbox">Oracle - VirtualBox</a><br>
 <a href="{{ site.baseurl }}/vmware">VMware Player</a><br>
 <a href="{{ site.baseurl }}/pfbox">Pfsense - Virtual Box</a><br>

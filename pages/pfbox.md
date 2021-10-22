@@ -26,4 +26,4 @@ Once you have your .iso file of pfsense, head over to VirtualBox Manager. From h
 
 #### Step 3:
 
-![step1]({{ site.baseurl }}/images/pfsense/pfsensee_4.png)<br>
+![step1]({{ site.baseurl }}/images/pfsense/pfsensee_4.png){:height="50%" width="50%"}<br>

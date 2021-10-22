@@ -44,4 +44,10 @@ Now change the selection to VMDK to create a virtual machine hard disk.
 
 #### Step 6:
 
+Continue to move through the screens until you are able to adjust the file location and size of the hard disk. I chose 20GB but it is completely your choice. 
+
 ![step6]({{ site.baseurl }}/images/pfsense/pfsensee_9.png){:height="50%" width="50%"}<br>
+
+#### Step 7:
+
+![step7]({{ site.baseurl }}/images/pfsense/pfsensee_10.png){:height="50%" width="50%"}<br>

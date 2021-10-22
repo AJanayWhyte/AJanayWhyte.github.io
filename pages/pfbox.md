@@ -32,4 +32,4 @@ We now have to create a new virtual machine. Choose a new name for your pfsense 
 
 #### Step 4:
 
-![step4]({{ site.baseurl }}/images/pfsense/pfsensee_5.png){:height="50%" width="50%"}<br>
+![step4]({{ site.baseurl }}/images/pfsense/pfsensee_6.png){:height="50%" width="50%"}<br>

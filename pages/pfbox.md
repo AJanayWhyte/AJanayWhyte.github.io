@@ -50,4 +50,4 @@ Continue to move through the screens until you are able to adjust the file locat
 
 #### Step 7:
 
-![step7]({{ site.baseurl }}/images/pfsense/pfsensee_10.png){:height="50%" width="50%"}<br>
+![step7]({{ site.baseurl }}/images/pfsense/pfsensee_10.png)<br>

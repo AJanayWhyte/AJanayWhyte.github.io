@@ -60,5 +60,13 @@ Now we will setup the network portion of Pfsense by clicking network on the left
 
 ![step8]({{ site.baseurl }}/images/pfsense/pfsensee_11.png)<br>
 
+#### Step 9:
+
+We will set up two different network adapters. For adapter one change the attached to drop down to Bridged Adapter. This is going to allow whatever internet connection that is going through Pfsense to to connect to the second adapter.
 
 ![step9]({{ site.baseurl }}/images/pfsense/pfsensee_12.png)<br>
+
+#### Step 10:
+
+
+![step10]({{ site.baseurl }}/images/pfsense/pfsensee_13.png)<br>

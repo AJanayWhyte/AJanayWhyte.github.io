@@ -84,4 +84,11 @@ When the extension window pops out select choose a disk file... from the list.
 ![step12]({{ site.baseurl }}/images/pfsense/pfsensee_15.png){:height="50%" width="50%"}<br>
 
 #### Step 13:
+
+Select your .iso file from where you extracted it. It should now show up under storage devices. Select the OK button. 
+
 ![step13]({{ site.baseurl }}/images/pfsense/pfsensee_16.png)
+
+#### Step 14:
+
+![step14]({{ site.baseurl }}/images/pfsense/pfsensee_17.png)

@@ -38,5 +38,10 @@ Click next through the screens until it asks you to press the create button.
 
 #### Step 5:
 
+Now change the selection to VMDK to create a virtual machine hard disk.
 
 ![step5]({{ site.baseurl }}/images/pfsense/pfsensee_7.png){:height="50%" width="50%"}<br>
+
+#### Step 6:
+
+![step6]({{ site.baseurl }}/images/pfsense/pfsensee_8.png){:height="50%" width="50%"}<br>

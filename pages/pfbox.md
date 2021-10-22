@@ -12,4 +12,6 @@ Follow these instructions to help configure your Pfsense for Virtualbox.
 
 You can find the link to download Pfsense [here](https://www.pfsense.org/download/).
 
+![step1]({{ site.baseurl }}/images/VM/vbox/pfsensee_1.png)<br>
+
 

@@ -54,5 +54,11 @@ Now that we have created a new pfsense virtual machine, select the machine so th
 
 ![step7]({{ site.baseurl }}/images/pfsense/pfsensee_10.png)<br>
 
+#### Step 8:
+
+Now we will setup the network portion of Pfsense by clicking network on the left side of the window.
 
 ![step8]({{ site.baseurl }}/images/pfsense/pfsensee_11.png)<br>
+
+
+![step9]({{ site.baseurl }}/images/pfsense/pfsensee_12.png)<br>

@@ -44,4 +44,4 @@ Now change the selection to VMDK to create a virtual machine hard disk.
 
 #### Step 6:
 
-![step6]({{ site.baseurl }}/images/pfsense/pfsensee_8.png){:height="50%" width="50%"}<br>
+![step6]({{ site.baseurl }}/images/pfsense/pfsensee_9.png){:height="50%" width="50%"}<br>

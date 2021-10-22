@@ -91,4 +91,4 @@ Select your .iso file from where you extracted it. It should now show up under s
 
 #### Step 14:
 
-![step14]({{ site.baseurl }}/images/pfsense/pfsensee_18.png)
+![step14]({{ site.baseurl }}/images/pfsense/pfsensee_18.png){:height="75%" width="75%"}

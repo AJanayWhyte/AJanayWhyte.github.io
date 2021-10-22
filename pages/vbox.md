@@ -3,6 +3,10 @@ layout: page
 title: Oracle - Virtualbox Configuration
 permalink: /vbox/
 ---
+<hr>
+### Table of Contents<br>
+<a href="{{ site.baseurl }}/setup">Virtual Machine Configuration</a><br>
+<hr>
 
 Follow these instructions to help configure your Oracle - Virtualbox.
 

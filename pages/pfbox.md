@@ -53,3 +53,6 @@ Continue to move through the screens until you are able to adjust the file locat
 Now that we have created a new pfsense virtual machine, select the machine so that it turns blue and click the settings button on the upper right.
 
 ![step7]({{ site.baseurl }}/images/pfsense/pfsensee_10.png)<br>
+
+
+![step8]({{ site.baseurl }}/images/pfsense/pfsensee_11.png)<br>

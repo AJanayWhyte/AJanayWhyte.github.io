@@ -10,6 +10,8 @@ permalink: /setup/
 [Linux Distributions](link)<br>
 <a href="{{ site.baseurl }}/vbox">Oracle - VirtualBox</a><br>
 <a href="{{ site.baseurl }}/vmware">VMware Player</a><br>
+<a href="{{ site.baseurl }}/pfbox">Pfsense - Virtual Box</a><br>
+<a href="{{ site.baseurl }}/pfware">Pfsense - VMware Player</a><br>
 <hr>
 
 ### Virtual Machine software

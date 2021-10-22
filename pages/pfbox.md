@@ -85,10 +85,10 @@ When the extension window pops out select choose a disk file... from the list.
 
 #### Step 13:
 
-Select your .iso file from where you extracted it. It should now show up under storage devices. Select the OK button. 
+Select your .iso file from where you extracted it. It should now show up under storage devices. Select the OK button and start your newly setup machine.
 
 ![step13]({{ site.baseurl }}/images/pfsense/pfsensee_16.png)
 
 #### Step 14:
 
-![step14]({{ site.baseurl }}/images/pfsense/pfsensee_17.png)
+![step14]({{ site.baseurl }}/images/pfsense/pfsensee_18.png)

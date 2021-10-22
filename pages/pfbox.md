@@ -73,4 +73,10 @@ Enable the 2nd adapter and change the attached to drop down to Internal Network.
 
 #### Step 11:
 
+From there, Select storage on the left side of the window. Click empty under storage devices and under attributes click the blue disc to open a new extension window. 
+
 ![step11]({{ site.baseurl }}/images/pfsense/pfsensee_14.png)<br>
+
+#### Step 12:
+
+![step12]({{ site.baseurl }}/images/pfsense/pfsensee_15.png){:height="50%" width="50%"}<br>

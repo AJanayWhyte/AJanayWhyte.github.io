@@ -16,7 +16,7 @@ You can find the link to download Pfsense [here](https://www.pfsense.org/downloa
 
 In order for you to download the appropriate file to import into VirtualBox, make the appropriate selections inside of the downloader box. Once your file is downloaded use a program such as 7zip to extract the .iso file.
 
-![step1]({{ site.baseurl }}/images/pfsense/pfsensee_2.png)<br>
+![step1]({{ site.baseurl }}/images/pfsense/pfsensee_2.png){:height="50%" width="50%"}<br>
 
 #### Step 2:
 

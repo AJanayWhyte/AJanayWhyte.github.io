@@ -8,6 +8,8 @@ permalink: /pfbox/
 <a href="{{ site.baseurl }}/setup">Virtual Machine Configuration</a><br>
 <hr>
 
-Follow these 
+Follow these instructions to help configure your Pfsense for Virtualbox.
 
-https://www.pfsense.org/download/
+You can find the link to download Pfsense [here](https://www.pfsense.org/download/).
+
+

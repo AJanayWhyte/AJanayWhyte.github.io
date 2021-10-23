@@ -176,4 +176,10 @@ Now we need to set the network adapter for our Kali machine to connect with Pfse
 
 #### Step 28:
 
+Start up your Kali machine and check your IP address. In my example you can see my Kali machine has pulled an IP address from Pfsense DHCP server. 
+
 ![step28]({{ site.baseurl }}/images/pfsense/pfsensee_39.png){:height="75%" width="75%"}
+
+#### Step 29:
+
+![step29]({{ site.baseurl }}/images/pfsense/pfsensee_40.png){:height="75%" width="75%"}

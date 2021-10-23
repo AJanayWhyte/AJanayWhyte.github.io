@@ -134,4 +134,4 @@ The current window should finish its processing. Once that is finished, head bac
 
 #### Step 21:
 
-![step21]({{ site.baseurl }}/images/pfsense/pfsensee_29.png){:height="50%" width="50%"}
+![step21]({{ site.baseurl }}/images/pfsense/pfsensee_29.png){:height="75%" width="75%"}

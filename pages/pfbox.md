@@ -170,4 +170,10 @@ Let's test the connection. select 7  to ping host. and type in an IP address to 
 
 #### Step 27:
 
+Now we need to set the network adapter for our Kali machine to connect with Pfsense. Select network and change attached to to Internal Network. Just like the 2nd adapter for Pfsense. 
+
 ![step27]({{ site.baseurl }}/images/pfsense/pfsensee_38.png){:height="75%" width="75%"}
+
+#### Step 28:
+
+![step28]({{ site.baseurl }}/images/pfsense/pfsensee_39.png){:height="75%" width="75%"}

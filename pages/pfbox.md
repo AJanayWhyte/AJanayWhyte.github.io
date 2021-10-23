@@ -164,4 +164,10 @@ Enter in your start and end IPv4 address range.
 
 #### Step 26:
 
+Let's test the connection. select 7  to ping host. and type in an IP address to test the connect.
+
 ![step26]({{ site.baseurl }}/images/pfsense/pfsensee_37.png){:height="75%" width="75%"}
+
+#### Step 27:
+
+![step27]({{ site.baseurl }}/images/pfsense/pfsensee_38.png){:height="75%" width="75%"}

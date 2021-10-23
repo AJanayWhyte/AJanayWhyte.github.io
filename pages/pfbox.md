@@ -122,4 +122,10 @@ You will come to a new window that lets you know that the installation is done a
 
 #### Step 19:
 
+Once you remove the virtual disk you will receive an error message for removing it. That is absolutely okay. Without removing the disk the Pfsense would continue on an endless loop of installation. Continue on by hitting enter key on your keyboard. 
+
 ![step19]({{ site.baseurl }}/images/pfsense/pfsensee_26.png){:height="75%" width="75%"}
+
+#### Step 20:
+
+![step20]({{ site.baseurl }}/images/pfsense/pfsensee_27.png){:height="50%" width="50%"}

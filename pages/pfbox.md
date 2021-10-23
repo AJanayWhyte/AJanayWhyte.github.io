@@ -122,4 +122,4 @@ You will come to a new window that lets you know that the installation is done a
 
 #### Step 19:
 
-![step19]({{ site.baseurl }}/images/pfsense/pfsensee_26.png){:height="50%" width="50%"}
+![step19]({{ site.baseurl }}/images/pfsense/pfsensee_26.png){:height="75%" width="75%"}

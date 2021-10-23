@@ -158,4 +158,10 @@ Continue to hit enter until you are asked if you want to enable the DHCP server.
 
 #### Step 25:
 
-![step23]({{ site.baseurl }}/images/pfsense/pfsensee_35.png){:height="75%" width="75%"}
+Enter in your start and end IPv4 address range.
+
+![step25]({{ site.baseurl }}/images/pfsense/pfsensee_35.png){:height="75%" width="75%"}
+
+#### Step 26:
+
+![step26]({{ site.baseurl }}/images/pfsense/pfsensee_36.png){:height="75%" width="75%"}

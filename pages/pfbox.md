@@ -128,4 +128,4 @@ Once you remove the virtual disk you will receive an error message for removing 
 
 #### Step 20:
 
-![step20]({{ site.baseurl }}/images/pfsense/pfsensee_27.png){:height="50%" width="50%"}
+![step20]({{ site.baseurl }}/images/pfsense/pfsensee_28.png){:height="50%" width="50%"}

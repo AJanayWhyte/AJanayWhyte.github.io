@@ -51,7 +51,7 @@ Click to check the "enable Network adapter box.
 ![step8]({{ site.baseurl }}/images/VM/vbox/vboxx_4.png)<br>
 
 #### Step 9:
-Lastly, select the drop down window for attached to and select Nat Network. This will add the newly created nat network that we created a few steps ago. From there select OK. We're all done!
+Lastly, select the drop down window for attached to and select Internal Network. This will add the newly created nat network that we created a few steps ago. From there select OK. We're all done!
 
 ![step9]({{ site.baseurl }}/images/VM/vbox/vboxx_5.png)<br>
 

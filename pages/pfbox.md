@@ -115,9 +115,11 @@ Continue forward until you come to a manual configuration window that asks if yo
 
 #### Step 18:
 
-You will come to a new window that lets you know that the installation is done and want's you to reboot. But before you do that, head back to the storage section of your VirtualBox Manager and remove the .iso file from load
+You will come to a new window that lets you know that the installation is done and want's you to reboot. But before you do that, head back to the storage section of your VirtualBox Manager and remove the .iso file from the virtual disk drive.
+
 ![step18]({{ site.baseurl }}/images/pfsense/pfsensee_24.png){:height="75%" width="75%"}
+![step19]({{ site.baseurl }}/images/pfsense/pfsensee_25.png){:height="50%" width="50%"}
 
 #### Step 19:
 
-![step19]({{ site.baseurl }}/images/pfsense/pfsensee_25.png){:height="75%" width="75%"}
+

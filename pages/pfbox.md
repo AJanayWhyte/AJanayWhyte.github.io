@@ -97,4 +97,10 @@ For the remaining portion of the install process you will be making selections b
 
 #### Step 15:
 
+Make sure that you have Continue selected and choose the select option.
+
 ![step15]({{ site.baseurl }}/images/pfsense/pfsensee_20.png){:height="75%" width="75%"}
+
+#### Step 16:
+
+![step16]({{ site.baseurl }}/images/pfsense/pfsensee_21.png){:height="75%" width="75%"}

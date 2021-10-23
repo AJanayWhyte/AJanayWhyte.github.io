@@ -152,4 +152,4 @@ Enter a subnet bit count. I entered in 24. Hit enter twice.
 
 #### Step 24:
 
-![step24]({{ site.baseurl }}/images/pfsense/pfsensee_33.png){:height="75%" width="75%"}
+![step24]({{ site.baseurl }}/images/pfsense/pfsensee_34.png){:height="75%" width="75%"}

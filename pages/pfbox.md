@@ -103,4 +103,10 @@ Make sure that you have Continue selected and choose the select option.
 
 #### Step 16:
 
+Now, choose auto (UFS) BIOS and the OK selection.
+
 ![step16]({{ site.baseurl }}/images/pfsense/pfsensee_21.png){:height="75%" width="75%"}
+
+#### Step 17:
+
+![step17]({{ site.baseurl }}/images/pfsense/pfsensee_22.png){:height="75%" width="75%"}

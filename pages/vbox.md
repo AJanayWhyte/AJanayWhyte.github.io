@@ -18,21 +18,21 @@ Before making any changes to your virtualbox settings, make sure that your machi
 #### Step 2:
 Press the machine menu selection and then press settings. 
 
-![step6]({{ site.baseurl }}/images/VM/vbox/vboxx_2.png)<br>
+![step2]({{ site.baseurl }}/images/VM/vbox/vboxx_2.png)<br>
 
 #### Step 3:
 Select Network on the left hand side. 
 
-![step7]({{ site.baseurl }}/images/VM/vbox/vboxx_3.png)<br>
+![step3]({{ site.baseurl }}/images/VM/vbox/vboxx_3.png)<br>
 
 #### Step 4:
 Click to check the "enable Network adapter box. 
 
-![step8]({{ site.baseurl }}/images/VM/vbox/vboxx_4.png)<br>
+![step4]({{ site.baseurl }}/images/VM/vbox/vboxx_4.png)<br>
 
 #### Step 5:
 Lastly, select the drop down window for attached to and select Internal Network. This will add the newly created nat network that we created a few steps ago. From there select OK. We're all done!
 
-![step9]({{ site.baseurl }}/images/VM/vbox/vboxx_5.png)<br>
+![step5]({{ site.baseurl }}/images/VM/vbox/vboxx_5.png)<br>
 
 ### Congrats you have configured your VirtualBox!

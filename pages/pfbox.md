@@ -91,4 +91,10 @@ Select your .iso file from where you extracted it. It should now show up under s
 
 #### Step 14:
 
+For the remaining portion of the install process you will be making selections by using the enter key and direction arrows on your keyboard. Continue selecting the enter key until you come to the install screen. Make sure that you have install selected and select OK. 
+
 ![step14]({{ site.baseurl }}/images/pfsense/pfsensee_19.png){:height="75%" width="75%"}
+
+#### Step 15:
+
+![step15]({{ site.baseurl }}/images/pfsense/pfsensee_20.png){:height="75%" width="75%"}

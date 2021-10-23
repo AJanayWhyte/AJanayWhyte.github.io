@@ -182,4 +182,8 @@ Start up your Kali machine and check your IP address. In my example you can see 
 
 #### Step 29:
 
+The last thing you need to do is log into the Pfsense GUI. The default login and password are admin and pfsense. I left all of the settings default minus changing the timezone. 
+
 ![step29]({{ site.baseurl }}/images/pfsense/pfsensee_40.png){:height="75%" width="75%"}
+
+

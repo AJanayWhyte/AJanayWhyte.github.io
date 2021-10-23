@@ -134,4 +134,10 @@ The current window should finish its processing. Once that is finished, head bac
 
 #### Step 21:
 
+Now we will configure Pfsense to work with our virtual network. We need to set a new interface. Choose 2 to set an interface IP address.
+
 ![step21]({{ site.baseurl }}/images/pfsense/pfsensee_29.png){:height="75%" width="75%"}
+
+#### Step 22:
+
+![step22]({{ site.baseurl }}/images/pfsense/pfsensee_30.png){:height="75%" width="75%"}

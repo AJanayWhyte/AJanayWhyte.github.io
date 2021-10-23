@@ -128,4 +128,10 @@ Once you remove the virtual disk you will receive an error message for removing 
 
 #### Step 20:
 
+The current window should finish its processing. Once that is finished, head back to your VirtualBox Manager and right click your new Pfsense machine. You will see an option that says reset. A new box will open up with a reset button. Press it. This will reload your Pfsense machine.
+
 ![step20]({{ site.baseurl }}/images/pfsense/pfsensee_28.png){:height="50%" width="50%"}
+
+#### Step 21:
+
+![step21]({{ site.baseurl }}/images/pfsense/pfsensee_29.png){:height="50%" width="50%"}

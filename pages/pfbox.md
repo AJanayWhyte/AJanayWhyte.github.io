@@ -146,4 +146,6 @@ We will be using a LAN. Select 2. and then enter a new LAN IPv4 address. I chose
 
 #### Step 23:
 
-![step22]({{ site.baseurl }}/images/pfsense/pfsensee_32.png){:height="75%" width="75%"}
+Enter a subnet bit count. I entered in 24. Hit enter twice. 
+
+![step23]({{ site.baseurl }}/images/pfsense/pfsensee_32.png){:height="75%" width="75%"}

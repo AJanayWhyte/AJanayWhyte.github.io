@@ -109,4 +109,10 @@ Now, choose auto (UFS) BIOS and the OK selection.
 
 #### Step 17:
 
+Continue forward until you come to a manual configuration window that asks if you would like to open shell. Select NO.
+
 ![step17]({{ site.baseurl }}/images/pfsense/pfsensee_23.png){:height="75%" width="75%"}
+
+#### Step 18:
+
+![step18]({{ site.baseurl }}/images/pfsense/pfsensee_24.png){:height="75%" width="75%"}

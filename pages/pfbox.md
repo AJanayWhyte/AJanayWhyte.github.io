@@ -152,4 +152,10 @@ Enter a subnet bit count. I entered in 24. Hit enter twice.
 
 #### Step 24:
 
+Continue to hit enter until you are asked if you want to enable the DHCP server. Type y for yes.
+
 ![step24]({{ site.baseurl }}/images/pfsense/pfsensee_34.png){:height="75%" width="75%"}
+
+#### Step 25:
+
+![step23]({{ site.baseurl }}/images/pfsense/pfsensee_35.png){:height="75%" width="75%"}

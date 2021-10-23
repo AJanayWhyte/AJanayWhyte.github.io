@@ -140,5 +140,10 @@ Now we will configure Pfsense to work with our virtual network. We need to set a
 
 #### Step 22:
 
+We will be using a LAN. Select 2. and then enter a new LAN IPv4 address. I chose to use 10.1.1.1.
+
 ![step22]({{ site.baseurl }}/images/pfsense/pfsensee_31.png){:height="75%" width="75%"}
 
+#### Step 23:
+
+![step22]({{ site.baseurl }}/images/pfsense/pfsensee_32.png){:height="75%" width="75%"}

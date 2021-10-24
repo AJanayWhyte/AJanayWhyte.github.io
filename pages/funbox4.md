@@ -5,11 +5,20 @@ permalink: /funbox4/
 ---
 ![Funbox CTF](https://www.vulnhub.com/entry/funbox-ctf,546/)<br>
 
+Funbox CTF comes from a series of 11 boxes. 
+
 Goal: use priviledge escalation to gain root access to the target machine.
 Hint: Case sensitive with using Nikto and need a minimum of 15 mins to find the user.
 <hr>
 Target Mac address: 08:00:27:4f:b1:d6
 <hr>
 
+1. Netdiscover
 
+We know our Target machine's Mac address. We need to do a netdiscover to find the IP address to the machine. 
+
+
+
+3. Nmap
+4. 
 

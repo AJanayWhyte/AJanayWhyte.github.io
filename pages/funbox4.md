@@ -15,9 +15,9 @@ Target Mac address: 08:00:27:4f:b1:d6
 
 1. Netdiscover
 
-We know our Target machine's Mac address. We need to do a netdiscover to find the IP address to the machine. 
+ We know our Target machine's Mac address. We need to do a netdiscover to find the IP address to the machine. 
 
-![step1]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_1.png)
+ ![step1]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_1.png)
 
 2. Nmap
 

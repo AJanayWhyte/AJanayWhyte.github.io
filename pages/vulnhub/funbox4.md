@@ -46,11 +46,10 @@ Target Mac address: 08:00:27:4f:b1:d6
      
      ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_6.png)
      
-   1. **Dirsearch - with hash**
-     
-        I took the hash that was discovered and added it to the end of the IP url. And becuase I only used .txt           extension during the first search I added .php and .html as well. 
+ 1. **Dirsearch - with hash**<br><br>
+     I took the hash that was discovered and added it to the end of the IP url. And becuase I only used .txt           extension during the first search I added .php and .html as well. 
         
-        ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_7.png)
+     ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_7.png)
         
-        The new search has brought back several extension that include both php and html
+     The new search has brought back several extension that include both php and html
 

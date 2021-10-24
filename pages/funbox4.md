@@ -25,7 +25,9 @@ Now that we have identified our target IP we should run an nmap scan to see what
 
 ![step2]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_2.png)
 
-3. As we can see, there are 4 ports open. More importantly, two of those ports are 22 - ssh, and 80 - http. Let's see if we can gain access to a url by going to http://192.168.1.19 .
+As we can see, there are 4 ports open. More importantly, two of those ports are 22 - ssh, and 80 - http. 
+
+3. Let's see if we can gain access to a url by going to http://192.168.1.19 .
 
 ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_3.png)
 

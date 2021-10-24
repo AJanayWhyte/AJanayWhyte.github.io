@@ -3,6 +3,7 @@ layout: page
 title: Funbox CTF - Medium
 permalink: /funbox4/
 ---
+![Funbox CTF](https://www.vulnhub.com/entry/funbox-ctf,546/)<br>
 
 Goal: use priviledge escalation to gain root access to the target machine.
 Hint: Case sensitive with using Nikto and need a minimum of 15 mins to find the user.

@@ -24,5 +24,10 @@ We know our Target machine's Mac address. We need to do a netdiscover to find th
 Now that we have identified our target IP we should run an nmap scan to see what information we can find on the target network. 
 
 ![step1]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_2.png)
+
+As we can see, there are 4 ports open. More importantly, two of those ports are 22 - ssh, and 80 - http. Let's see if we can gain access to a url.
+
+![step1]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_3.png)
+
 4. 
 

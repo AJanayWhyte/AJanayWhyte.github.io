@@ -19,6 +19,10 @@ We know our Target machine's Mac address. We need to do a netdiscover to find th
 
 ![step1]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_1.png)
 
-3. Nmap
+2. Nmap
+
+Now that we have identified our target IP we should run an nmap scan to see what information we can find on the target network. 
+
+![step1]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_2.png)
 4. 
 

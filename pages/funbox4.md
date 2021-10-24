@@ -36,6 +36,14 @@ Target Mac address: 08:00:27:4f:b1:d6
 1. **Dirsearch**<br><br>
      I used Dirsearch to see if I could find any hidden directories attached to the url.
      
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_4.png)
+     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_4.png)
+     
+     Looks like there is a ROBOTS.TXT. After trying to gain access to several times. I remembered the hint that        was given earlier. Case Sensitive. Trying robots.txt with all capital letters as it shows in the dirsearch        finding. I finally found results. 
+     
+     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_5.png)
+     
+     Looks like there is an uploads directory. When I scroll down to the bottom of the page it looks like there is      a password of some sort. 
+     
+     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_6.png)
  
 

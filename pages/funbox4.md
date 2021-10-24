@@ -26,14 +26,13 @@ Target Mac address: 08:00:27:4f:b1:d6
 
      As we can see, there are 4 ports open. More importantly, two of those ports are 22 - ssh, and 80 - http. 
 
-1. **Port 80**<br>
+1. **Port 80**<br><br>
      Let's see if we can gain access to a url by going to http://192.168.1.19 .
 
      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_3.png)
 
      The url takes us to the Apache2 Ubuntu Default server page.
 
-1. a
-2. 
+1. **Dirsearch**<br><br>
  
 

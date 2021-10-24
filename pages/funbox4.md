@@ -19,9 +19,8 @@ Target Mac address: 08:00:27:4f:b1:d6
      ![step1]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_1.png)
 
 
-1.  
-2. Nmap
-Now that we have identified our target IP we should run an nmap scan to see what information we can find on the target network. 
+1.  Nmap
+Now that we have identified our target IP we should run an nmap scan to see what information                       we can find on the target network. 
 
 ![step2]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_2.png)
 

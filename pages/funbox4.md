@@ -34,5 +34,8 @@ Target Mac address: 08:00:27:4f:b1:d6
      The url takes us to the Apache2 Ubuntu Default server page.
 
 1. **Dirsearch**<br><br>
+     I used Dirsearch to see if I could find any hidden directories attached to the url.
+     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_4.png)
  
 

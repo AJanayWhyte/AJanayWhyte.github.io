@@ -9,8 +9,8 @@ permalink: /setup/
 
 <a href="{{ site.baseurl }}/pfbox">Pfsense - Virtual Box</a><br>
 <a href="{{ site.baseurl }}/vbox">Oracle - VirtualBox</a><br>
-<a href="{{ site.baseurl }}/">VMware Player - Coming Soon</a><br>
-<a href="{{ site.baseurl }}/">Pfsense - VMware Player - Coming Soon</a><br>
+VMware Player - Coming Soon
+Pfsense - VMware Player - Coming Soon
 <hr>
 
 ### Virtual Machine software

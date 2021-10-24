@@ -7,8 +7,8 @@ permalink: /setup/
 <hr>
 ### Table of Contents<br>
 
-<a href="{{ site.baseurl }}/pfbox">Pfsense - Virtual Box</a><br>
 <a href="{{ site.baseurl }}/vbox">Oracle - VirtualBox</a><br>
+<a href="{{ site.baseurl }}/pfbox">Pfsense - Virtual Box</a><br>
 VMware Player - Coming Soon<br>
 Pfsense - VMware Player - Coming Soon<br>
 <hr>

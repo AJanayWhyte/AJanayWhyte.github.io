@@ -98,5 +98,8 @@ Target Mac address: 08:00:27:4f:b1:d6
       As you can see it a bunch of nothing. However, there is one hint that may help us out. The hint mentions rockyou.txt and sed which is used for searching, replacing, and inserting/deleting text in a .txt document. 
       
       Let's keep looking to see what else we find. I went farther into the directories and saw that there were two sub directories under user names of Anna and thomas. When opening anna's directory I didn't find anything. But, under thomas there is a file called .todo . 
+      
       ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_17.png)
+      
+     
       ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_18.png)

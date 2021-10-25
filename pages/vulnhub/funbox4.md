@@ -101,5 +101,6 @@ Target Mac address: 08:00:27:4f:b1:d6
       
       ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_17.png)
       
+     When I opened the .todo file it was essentially a todo list just as listed. Number 7 says that thomas needs to add an exclamation mark to his password. Now we know that he has an exclamation mark in his password. 
      
       ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_18.png)

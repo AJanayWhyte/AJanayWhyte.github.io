@@ -53,6 +53,10 @@ Target Mac address: 08:00:27:4f:b1:d6
         
      The new search has brought back several extension that include both php and html. Two of which include the newly found uploads directory. 
      
+     Once I gained access to the uploads url I see that there is a browse and upload button. I also saw that the Dirsearch had an uploads.php so I'm going to assume that I should upload a .php file. So let's create a backdoor in.
+     
+     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_8.png)
+     
  1. **Php Reverse Shell**<br><br>
 
      In order for us to gain access to the 

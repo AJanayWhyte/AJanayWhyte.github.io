@@ -69,3 +69,10 @@ Target Mac address: 08:00:27:4f:b1:d6
      
      Once inside of the php file we need to change the ip address and the port number. The ip address should be your own machine's ip address. choose a port number for the file to use. I chose port number 8888.
 
+1. **Uploading your file**
+
+     In order to verify that our backdoor file is working we need to set up a port listener by using netcat
+     
+     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_9.png)
+     
+     *Note: the current listening port number is different due to stopping and restarting the box. It should still work using the previous port.*

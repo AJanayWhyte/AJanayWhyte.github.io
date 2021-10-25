@@ -62,5 +62,10 @@ Target Mac address: 08:00:27:4f:b1:d6
      In order for us to gain access in to the webserver we will be using php-reverse-shell to create a backdoor. If you're not sure where to find this file try using the command "locate php-reverse-shell" and it should pop up. 
      
      ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_43.png)
+     
+     In order for the file to work properly we need to edit the information inside the file. Make a copy of the current file so you can keep your original and then edit the file using nano. 
+     
      ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_44.png)
+     
+     Once inside of the php file we need to change the ip address and the port number. The ip address should be your own machine's ip address. choose a port number for the file to use. I chose port number 8888.
 

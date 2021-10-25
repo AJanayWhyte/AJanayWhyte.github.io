@@ -3,7 +3,7 @@ layout: page
 title: Funbox CTF - Medium
 permalink: /funbox4/
 ---
-[Funbox CTF](https://www.vulnhub.com/entry/funbox-ctf,546/)<br>
+[Click here to download Funbox CTF](https://www.vulnhub.com/entry/funbox-ctf,546/)<br>
 
 Funbox CTF comes from a series of 11 boxes. 
 

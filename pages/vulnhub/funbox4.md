@@ -90,3 +90,7 @@ Target Mac address: 08:00:27:4f:b1:d6
      Now that we are in, let's see what we can find. The first thing I did was a list command to see what type of files show up immediately. 
      
       ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_13.png)
+
+     Right away I found a hint.txt file. I opened it to see what was inside. 
+     
+      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_14.png)

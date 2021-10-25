@@ -59,7 +59,7 @@ Target Mac address: 08:00:27:4f:b1:d6
      
  1. **Php Reverse Shell**<br><br>
 
-     In order for us to gain access to the 
+     In order for us to gain access in to the webserver we will be using php-reverse-shell to create a backdoor. If you're not sure where to find this file try using the command "locate php-reverse-shell" and it should pop up. 
      
      ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_43.png)
      ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_44.png)

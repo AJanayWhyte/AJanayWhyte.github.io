@@ -57,6 +57,8 @@ Target Mac address: 08:00:27:4f:b1:d6
      
      ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_8.png)
      
+     *Note: the current target IP address is different due to stopping and restarting the box.*
+     
  1. **Php Reverse Shell**<br><br>
 
      In order for us to gain access in to the webserver we will be using php-reverse-shell to create a backdoor. If you're not sure where to find this file try using the command "locate php-reverse-shell" and it should pop up. 

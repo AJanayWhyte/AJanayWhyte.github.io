@@ -73,6 +73,6 @@ Target Mac address: 08:00:27:4f:b1:d6
 
      In order to verify that our backdoor file is working we need to set up a port listener by using netcat
      
-     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_9.png)
+     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_10.png)
      
      *Note: the current listening port number is different due to stopping and restarting the box. It should still work using the previous port.*

@@ -109,7 +109,7 @@ Target Mac address: 08:00:27:4f:b1:d6
      
      We are going to use both rockyou.txt and sed to create a new wordlist that will have passwords containing exclamation marks. Use the command in the screenshot and name your new wordlist. If you can't find rockyou.txt try using locate. 
      
-     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_19.png)
      
      
      

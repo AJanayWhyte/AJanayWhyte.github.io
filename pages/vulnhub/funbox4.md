@@ -85,4 +85,8 @@ Target Mac address: 08:00:27:4f:b1:d6
      
      Once the file is uploaded the port listener should change to something similar to the image above. This will also give you access to the target's network. 
      
+1. **Traversing the target network**
+
+     Now that we are in, let's see what we can find. The first thing I did was a list command to see what type of files show up immediately. 
      
+      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_13.png)

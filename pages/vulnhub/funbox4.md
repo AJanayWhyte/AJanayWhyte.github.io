@@ -80,3 +80,6 @@ Target Mac address: 08:00:27:4f:b1:d6
      ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_9.png)
      
      Once you upload your new php file you should get a confirmation that it was successful.
+     
+     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_12.png)

@@ -52,4 +52,7 @@ Target Mac address: 08:00:27:4f:b1:d6
      ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_7.png)
         
      The new search has brought back several extension that include both php and html
+     
+     ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_43.png)
+     ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_44.png)
 

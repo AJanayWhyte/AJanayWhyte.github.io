@@ -94,3 +94,7 @@ Target Mac address: 08:00:27:4f:b1:d6
      Right away I found a hint.txt file. I opened it to see what was inside. 
      
       ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_14.png)
+      
+      As you can see it a bunch of nothing. However, there is one hint that may help us out. The mentions rockyou.txt and sed which is used for searching, replacing, and inserting/deleting text. 
+      
+      Let's keep looking to see what else we find. 

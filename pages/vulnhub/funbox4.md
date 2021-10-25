@@ -119,4 +119,6 @@ Target Mac address: 08:00:27:4f:b1:d6
      
      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_20.png)
      
+     There are a few different things we are using to ensure that we can crack the password. 1. -l for login, 2. -p for password, the target ip address to use for ssh. As you can see the new wordlist is attached to -p as well as thomas's name for -l. This produces the password along with the login a little bit farther down. We cracked it! Now let's login as thomas!
+     
      

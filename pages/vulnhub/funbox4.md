@@ -111,5 +111,12 @@ Target Mac address: 08:00:27:4f:b1:d6
      
      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_19.png)
      
+     As you can see, if you open the newly created wordlist file all of the passwords inside will all have exclamation marks. We will use this to try and crack the password to login for thomas. 
+     
+1. **Hydra**<br><br>
+     
+     We will now take the new wordlist that we created and use Hydra to try to crack the password for thomas's login. 
+     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_20.png)
      
      

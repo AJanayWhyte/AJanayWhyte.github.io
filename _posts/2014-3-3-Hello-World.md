@@ -2,13 +2,11 @@
 layout: post
 title: Welcome!
 ---
-###**Amber Whyte, Cybersecurity Professional
-
-Hello everyone, welcome! 
+### Amber Whyte, Cybersecurity Professional
 
 ![Profile](https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/images/Profile_1.JPG?raw=true){: height="300px" width="300px" style="float:left; padding-right:10px" }
 
-I have had a love for computers since I was a very young child. I've always had a facination with how things work and how they are put together. Just like solving a puzzle. I spend several hours everyday each week learning and advancing my skills within the world of cybersecurity. 
+Hello everyone, welcome! I have had a love for computers since I was a very young child. I've always had a facination with how things work and how they are put together. Just like solving a puzzle. I spend several hours everyday each week learning and advancing my skills within the world of cybersecurity. 
 
 I am a recent Master's degree graduate of Marist College in poughkeepsie, NY. With a degree in Computer Science and a concentration in Cybersecurity and Information Systems management. My current interests are within the fields of Pentesting and SOC analysis. As well as different learning platforms that challenge me to advance my skill set for better understanding. 
 

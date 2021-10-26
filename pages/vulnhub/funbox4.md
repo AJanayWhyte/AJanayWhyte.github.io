@@ -123,4 +123,10 @@ Target Mac address: 08:00:27:4f:b1:d6
      
      There are a few different things we are using to ensure that we can crack the password. 1. -l for login, 2. -p for password, the target ip address to use for ssh. As you can see the new wordlist is attached to -p as well as thomas's name for -l. This produces the password along with the login a little bit farther down. We cracked it! Now let's login as thomas!
      
+1. **Privilege Escalation**<br><br>
+
+     Once I got into SSH with thomas's login information it wasn't allowing me to move around. It seems that the current shell is set to restricted. So after doing a bit of research I found that there was a way to change the restricted status by using vim.
+
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_23.png)
+     
      

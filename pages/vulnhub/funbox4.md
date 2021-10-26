@@ -129,4 +129,24 @@ Target Mac address: 08:00:27:4f:b1:d6
 
      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_23.png)
      
+     After typing the statement in the screen shot press enter and then type :shell, then save and exit. You should now be able to change directories.
      
+     I tried to transfer files over to the target machine. But I couldn't get anything to work. I even tried to transfer files through the uploads url. Nothing worked for me. So I had to go back to the drawing board.
+     
+1. **SCP**<br><br>
+
+     I found a method that uses SCP which allows you to transfer files through the ssh connection. Decided to use Linux exploit suggester to find an ways to exploit the target system. 
+     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_27.png)
+     
+     I downloaded the suggester onto my machine and used scp to copy it onto the target machine. 
+     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_28.png)
+     
+     After the copy transfer I saw that the file transfered successfully into the TMP folder on the target machine. 
+     
+      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_29.png)
+      
+      I ran the program and it brought back a list of exploits. The list goes from most likely to least likely. I used eBPF_verifier
+     
+      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_31.png)

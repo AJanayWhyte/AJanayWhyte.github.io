@@ -2,7 +2,6 @@
 layout: post
 ---
 
-## Welcome
 ### Amber Whyte, Cybersecurity Professional<br><br>
 
 ![Profile](https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/images/Profile_1.JPG?raw=true){: height="300px" width="300px" style="float:left; padding-right:10px" }

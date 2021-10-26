@@ -159,5 +159,21 @@ Target Mac address: 08:00:27:4f:b1:d6
       
       ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_38.png)
       
-      
+1. **Root**<br><br>
+
+     After the exploit ran on the target machine I used the id command to see who I was. I DID IT! I AM ROOT!
+     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_39.png)
+     
+     We now need to use a python script to traverse into the root folder
+     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_40.png)
+     
+     After using the python script I was able to change into the root directory and list it's contents. 
+     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_41.png)
+     
+     I finally found the root flag and opened it up. WE FOUND THE FLAG!
+     
+     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_42.png)
       

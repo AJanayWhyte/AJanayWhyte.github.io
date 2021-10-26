@@ -6,7 +6,7 @@ title: Welcome!
 
 Hello everyone, welcome! 
 
-![Profile](https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/images/Profile_1.JPG?raw=true){: height="75px" width="300px" style="float:left; padding-right:10px" }
+![Profile](https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/images/Profile_1.JPG?raw=true){: height="300px" width="300px" style="float:left; padding-right:10px" }
 
 I have had a love for computers since I was a very young child. I've always had a facination with how things work and how they are put together. Just like solving a puzzle. I spend several hours everyday each week learning and advancing my skills within the world of cybersecurity. 
 

@@ -150,3 +150,14 @@ Target Mac address: 08:00:27:4f:b1:d6
       I ran the program and it brought back a list of exploits. The list goes from most likely to least likely. I used eBPF_verifier
      
       ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_31.png)
+      
+      After finding an exploit. I downloaded it and then used gcc which is a c++ compiler to change the output of the file and then used scp to transfer a copy over to the target machine.
+      
+      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_34.png)
+      
+      Once I had access to the file on the target computer I then ran the exploit and the execution was successful. 
+      
+      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_38.png)
+      
+      
+      

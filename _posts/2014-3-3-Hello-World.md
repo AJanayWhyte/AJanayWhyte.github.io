@@ -14,4 +14,8 @@ I am currently an intern and team lead with a company by the name of Professiona
 
 This portfolio is dedicated to showing my skill and understanding on how to use virtual machines as well as vulnerable machines that are produced by vulnhub.com, tryhackme, and hack the box. all of the images and text are done by me and hopefully this will become a platform for others to learn from. 
 
-Thank you for stopping by and I hope that you find information that can help you with whatever it is that you are trying to learn. 
+Thank you for stopping by and I hope that you find information that can help you with whatever it is that you are trying to learn.
+
+### Contact me
+
+[ajanaywhyte@gmail.com](mailto:ajanaywhyte@gmail.com)

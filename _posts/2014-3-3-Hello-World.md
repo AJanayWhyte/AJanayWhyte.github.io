@@ -13,3 +13,5 @@ I am a recent Master's degree graduate of Marist College in poughkeepsie, NY. Wi
 I am currently an intern and team lead with a company by the name of Professional Certification and Consulting Services. We are dedicated to learning and teaching others the ins and outs of the cybersecurity world. As well as a heavy concentration on learning Linux, pentesting, and security management. We also participate in the National Cyber League seasonal competitions. 
 
 This portfolio is dedicated to showing my skill and understanding on how to use virtual machines as well as vulnerable machines that are produced by vulnhub.com, tryhackme, and hack the box. all of the images and text are done by me and hopefully this will become a platform for others to learn from. 
+
+Thank you for stopping by and I hope that you find information that can help you with whatever it is that you are trying to learn. 

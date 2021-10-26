@@ -9,7 +9,7 @@ permalink: /VM/
 <a href="{{ site.baseurl }}/setup">Virtual Machine Configuration</a><br>
 <hr>
 
-### [VulnHubs]
+### VulnHubs
 
  <a href="{{ site.baseurl }}/funbox4">Funbox: CTF - Medium</a><br>
 

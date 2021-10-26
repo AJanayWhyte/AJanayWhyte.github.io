@@ -6,7 +6,7 @@ title: Welcome!
 
 Hello everyone, welcome! 
   
-<img align="left" width="300" height="300" vspace "10" hspace "10" src="https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/images/Profile_1.JPG?raw=true"> I have had a love for computers since I was a very young child. I've always had a facination with how things work and how they are put together. Just like solving a puzzle. I spend several hours everyday each week learning and advancing my skills within the world of cybersecurity. 
+<img align=vspace "10" hspace "10" "left" width="300" height="300" src="https://github.com/AJanayWhyte/ajanaywhyte.github.io/blob/master/images/Profile_1.JPG?raw=true"> I have had a love for computers since I was a very young child. I've always had a facination with how things work and how they are put together. Just like solving a puzzle. I spend several hours everyday each week learning and advancing my skills within the world of cybersecurity. 
 
 I am a recent Master's degree graduate of Marist College in poughkeepsie, NY. With a degree in Computer Science and a concentration in Cybersecurity and Information Systems management. My current interests are within the fields of Pentesting and SOC analysis. As well as different learning platforms that challenge me to advance my skill set for better understanding. 
 

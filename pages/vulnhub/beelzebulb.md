@@ -87,3 +87,9 @@ Target Mac address: 08:00:27:ad:b0:ab
      The UI is telling me to say Hi to Valak. So I did just that. I typed the word Hi into the text box and clicked the blue button. Valak says hi back. But it seemed way too simple so I inspected the element of the webpage. And it seems there is a password listed.
      
       ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_15.png)
+      
+1. **Trying to login
+
+     So there are a few things that I have. I have a password and I have two possible usernames. I went back to the login page and tried to login with both Valak and Krampus. But nothing worked. But I remembered that port 22 for ssh was also opened. I finally got through. 
+     
+      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_16.png)

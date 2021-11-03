@@ -100,6 +100,6 @@ Target Mac address: 08:00:27:ad:b0:ab
       
 1. **SSH**<br><br>
       
-      I remembered that port 22 for ssh was open when I ran the nmap scan so I tried that and it worked. 
+      I remembered that port 22 for ssh was open when I ran the nmap scan so I tried that login attempt with the password that I found and krampus as a username. It worked. 
       
       ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_18.png)

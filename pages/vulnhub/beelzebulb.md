@@ -108,4 +108,6 @@ Target Mac address: 08:00:27:ad:b0:ab
 
      I used the Id command to verify what my priviledges were on the target machine. As I expected I need to figure out how to escalate my priviledges. 
      
-     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_20.png)
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_20.png){:height="150%" width="150%"}
+     
+     

@@ -74,3 +74,7 @@ Target Mac address: 08:00:27:ad:b0:ab
      The scan brought back a total of 3 directories. When I opened each one I didn't find see or find anything that I could use. This time I ran another gobuster scan with each extension to see what I could find. This time there was a return for the /wp-scan. directory with an attachment of /uploads.
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_12.png)
+
+     This time when I went to the url with the /uploads extension it brought back something interesting. 
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_13.png)

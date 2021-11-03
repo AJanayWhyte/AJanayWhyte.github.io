@@ -56,7 +56,7 @@ Target Mac address: 08:00:27:ad:b0:ab
      
      The new says that beelzebub is encrypted with md5. So I tried it out.
      
-1. **Encrytion**<br><br>
+1. **Encryption**<br><br>
 
      I used cyberchef but there are several other options that you can search to encrypt and decrypt md5.
      
@@ -65,6 +65,10 @@ Target Mac address: 08:00:27:ad:b0:ab
     Tip: If you would like to use the Linux CLI to obtain the md5 hash type<br>
     "echo -n beelzebulb | md5sum"
      
-     I took the md5 hash and tried to use it as a password. But I realized that hashes are usually added to url links. So I added it onto the end of the url. 
+     I took the md5 hash and tried to use it as a password. But I realized that hashes are usually added to url links. So I added it onto the end of the url. It didn't bring back any information that I could use to advance so I ran a gobuster scan to find any available directories. 
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_11.png)
+
+     The scan brought back a total of 3 directories. When I opened each one I didn't find see or find anything that I could use. This time I ran another gobuster scan with each extension to see what I could find. This time there was a return for the /wp-scan. directory with an attachment of /uploads.
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_12.png)

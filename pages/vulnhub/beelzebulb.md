@@ -20,11 +20,11 @@ Target Mac address: 08:00:27:ad:b0:ab
     
 1. **Nmap**<br><br>
 
-     Now that I have found the IP address for the target machine. We should scan to see what we can find on the target network. 
+     Now that I have found the IP address for the target machine. I should scan to see what I can find on the target network. 
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_3.png){:height="75%" width="75%"}
      
-     As we can see here there are two ports open on the target network. Port 22 - ssh, and port 80 - http. We should verify whether or not there is an active url.
+     I can see here there are two ports open on the target network. Port 22 - ssh, and port 80 - http. I should verify whether or not there is an active url.
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_4.png)
      
@@ -37,6 +37,8 @@ Target Mac address: 08:00:27:ad:b0:ab
      It seems that there is a directory called phpmyadmin. When I added the directory extension to the end of my url it opened up to a login page of some sort. 
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_6.png)
+     
+     I don't have any information as of yet to try to login to this login page. So I will use a nikto scan to explore a litte farther. 
      
 1. **Nikto**<br><br>
 
@@ -59,3 +61,9 @@ Target Mac address: 08:00:27:ad:b0:ab
      I used cyberchef but there are several other options that you can search to encrypt and decrypt md5.
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_10.png)
+     
+     **Tip: If you would like to use the Linux CLI to obtain the md5 hash type $"echo -n beelzebulb | md5sum"**
+     
+     I took the md5 hash and tried to use it as a password. But I realized that hashes are usually added to url links. So I added it onto the end of the url. 
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_11.png)

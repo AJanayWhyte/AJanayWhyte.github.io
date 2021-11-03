@@ -83,3 +83,7 @@ Target Mac address: 08:00:27:ad:b0:ab
      
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_14.png)
+
+     The UI is telling me to say Hi to Valak. So I did just that. I typed the word Hi into the text box and clicked the bloue button. 
+     
+      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_15.png)

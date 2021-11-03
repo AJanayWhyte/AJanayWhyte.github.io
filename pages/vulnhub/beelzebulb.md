@@ -103,3 +103,9 @@ Target Mac address: 08:00:27:ad:b0:ab
       I remembered that port 22 for ssh was open when I ran the nmap scan so I tried that login attempt with the password that I found and krampus as a username. It worked. 
       
       ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_18.png)
+      
+1. **Who am I?**
+
+     I used the Id command to verify what my priviledges were on the target machine. As I expected I need to figure out how to escalate my priviledges. 
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_20.png)

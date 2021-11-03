@@ -62,7 +62,7 @@ Target Mac address: 08:00:27:ad:b0:ab
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_10.png)
      
-    Tip: If you would like to use the Linux CLI to obtain the md5 hash type $"echo -n beelzebulb    | md5sum"
+    Tip: If you would like to use the Linux CLI to obtain the md5 hash type "echo -n beelzebulb | md5sum"
      
      I took the md5 hash and tried to use it as a password. But I realized that hashes are usually added to url links. So I added it onto the end of the url. 
      

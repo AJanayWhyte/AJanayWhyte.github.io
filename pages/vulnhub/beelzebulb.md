@@ -115,3 +115,12 @@ Target Mac address: 08:00:27:ad:b0:ab
      I start to traverse through the different directories to see what I can find. I tried to go into the root folder and I was denied access. I found a .sudo_as_admin_successful and I tried to cat the file and it brought back nothing. I also saw .Serv-U-Tray.conf. I know that conf is short for configuration so I decided to do a google search on it. I found that it had an exploit.
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_19.png)
+     
+1. **The exploit**
+
+      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_22.png)<br>
+      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_23.png)
+      
+1. **Priviledge Escalation**
+
+     

@@ -28,7 +28,7 @@ Target Mac address: 08:00:27:ad:b0:ab
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_4.png)
      
-1. **Gobuster**
+1. **Gobuster**<br><br>
 
      I decided to use gobuster to see what directories I could find attached to the IP address for the target network. 
      
@@ -38,3 +38,24 @@ Target Mac address: 08:00:27:ad:b0:ab
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_6.png)
      
+1. **Nikto**<br><br>
+
+     After seeing that gobuster didn't bring many results I ran a nikto scan to see if I could find any vulnerabilities.
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_7.png)
+     
+     I found that there were multiple index files that had the same name. index.html which is typical for the start of a web page and index.php which seemed different. So I added the extension on to the url. 
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_8.png)
+     
+     It shows "not found" however it still seems a little weird that there is an extension with .php So I viewed the page source. 
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_9.png)
+     
+     The new says that beelzebub is encrypted with md5. So I tried it out.
+     
+1. **Encrytion**<br><br>
+
+     I used cyberchef but there are several other options that you can search to encrypt and decrypt md5.
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_10.png)

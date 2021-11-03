@@ -33,3 +33,8 @@ Target Mac address: 08:00:27:ad:b0:ab
      I decided to use gobuster to see what directories I could find attached to the IP address for the target network. 
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_5.png)
+     
+     It seems that there is a directory called phpmyadmin. When I added the directory extension to the end of my url it opened up to a login page of some sort. 
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_6.png)
+     

@@ -90,6 +90,6 @@ Target Mac address: 08:00:27:ad:b0:ab
       
 1. **Trying to login
 
-     So there are a few things that I have. I have a password and I have two possible usernames. I went back to the login page and tried to login with both Valak and Krampus. But nothing worked. But I remembered that port 22 for ssh was also opened. I finally got through. 
+     So there are a few things that I have. I have a password and I have two possible usernames. I went back to the login page and tried to login with both Valak and Krampus. But nothing worked. I went back and ran another nikto scan with the md5 hash attached to see what it would bring back. It brought back a 2nd login screen. 
      
       ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_16.png)

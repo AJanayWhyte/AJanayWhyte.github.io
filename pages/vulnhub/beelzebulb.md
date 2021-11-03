@@ -106,7 +106,7 @@ Target Mac address: 08:00:27:ad:b0:ab
       
 1. **Who am I?**
 
-     I used the Id command to verify what my priviledges were on the target machine. As I expected I need to figure out how to escalate my priviledges. 
+     I used the Id command to verify what my priviledges were on the target machine. As I expected I need to figure out how to escalate my privileges. 
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_20.png){:height="150%" width="150%"}
      
@@ -121,6 +121,28 @@ Target Mac address: 08:00:27:ad:b0:ab
       ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_22.png)<br>
       ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_23.png)
       
-1. **Priviledge Escalation**
+1. **Privilege Escalation**
 
-     
+    First I downloaded the exploit onto the target machine and I verify that the file is there
+    
+    ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_24.png)
+    ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_25.png)
+    
+    Then I change the name of the file and use gcc to compile the file. This will change the privilege of the file and make it executable. 
+    
+    ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_26.png)
+    
+    Then, I execute the file on the target machine. This should give me root privilege. 
+    
+    ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_27.png)
+    
+    WE ARE ROOT!
+    
+ 1. **Root**
+
+     Once I gain root privilege, I change to the root directory and search for the flag. 
+    
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_28.png)
+    
+    
+    

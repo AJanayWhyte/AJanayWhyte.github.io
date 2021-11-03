@@ -78,3 +78,8 @@ Target Mac address: 08:00:27:ad:b0:ab
      This time when I went to the url with the /uploads extension it brought back something interesting. 
      
      ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_13.png)
+     
+     There is a directory called talk to valak. Once I clicked on the directory it opened up to an interactive page.
+     
+     
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_14.png)

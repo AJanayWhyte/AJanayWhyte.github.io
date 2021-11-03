@@ -22,7 +22,7 @@ Target Mac address: 08:00:27:ad:b0:ab
 
      Now that I have found the IP address for the target machine. We should scan to see what we can find on the target network. 
      
-     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_3.png){:height="50%" width="50%"}
+     ![step1]({{ site.baseurl }}/images/vulnhubs/beelzebulb/beelzebulb_3.png){:height="75%" width="75%"}
      
      As we can see here there are two ports open on the target network. Port 22 - ssh, and port 80 - http. We should verify whether or not there is an active url.
      

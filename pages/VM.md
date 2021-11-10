@@ -11,5 +11,7 @@ permalink: /VM/
 
 ### VulnHubs
 
+ <a href="{{ site.baseurl }}/funbox1">Funbox 1 - COMING SOON</a><br>
  <a href="{{ site.baseurl }}/funbox4">Funbox: CTF - Medium</a><br>
  <a href="{{ site.baseurl }}/beelzebulb">Beelzebulb 1</a><br>
+ 

@@ -39,60 +39,39 @@ Target IP Address: 192.168.1.108
      As I read through the page I see that there is another hint given. I now have the user name.<br>
      
  1. **robots.txt**<br><br>
-     From there I went to the robots.txt extension. As found earlier in the nmap scan secret.txt is supposed to be      disallowed. But let's test it anyway.  
+     From there I went to the robots.txt extension. As found earlier in the nmap scan secret.txt is supposed to be      disallowed. But let's test it anyway.<br>  
         
      ![step5]({{ site.baseurl }}/images/vulnhubs/oscp/oscp5_5.png)
         
  1. **secret.txt**<br><br>
-     Now I see why secret.txt was supposed to be disallowed. It looks like there is encoded base64 hidden on this      page. So I will try to use it.  
+     Now I see why secret.txt was supposed to be disallowed. It looks like there is encoded base64 hidden on this      page. So I will try to use it.<br>  
      
      ![step5]({{ site.baseurl }}/images/vulnhubs/oscp/oscp6_6.png)
      
 1. **Base64 Decode**
 
-     In order to verify that our backdoor file is working we need to set up a port listener by using netcat
+     There are many ways that base64 can be decoded. I chose to decode it within the CLI using the echo command in      conjunction with the base64 command.<br> 
      
-     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_10.png)
+     ![step4]({{ site.baseurl }}/images/vulnhubs/oscp/oscp7_7.png)
+     ![step4]({{ site.baseurl }}/images/vulnhubs/oscp/oscp8_8.png)
      
-     *Note: the current listening port number is different due to stopping and restarting the box. It should still work using the previous port.*
+     The base64 decoded it seems to to be an SSH private key.<br>
      
-     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_9.png)
+     ![step4]({{ site.baseurl }}/images/vulnhubs/oscp/oscp9_9.png)
      
-     Once you upload your new php file you should get a confirmation that it was successful.
-    
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_12.png)
-     
-     Once the file is uploaded the port listener should change to something similar to the image above. This will also give you access to the target's network. 
-     
-1. **Traversing the target network**
+1. **Saving the key in a text file**
 
-     Now that we are in, let's see what we can find. The first thing I did was a list command to see what type of files show up immediately. 
+     Using the cat command I saved the private key inside of a .txt file.<br>
      
-      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_13.png)
-
-     Right away I found a hint.txt file. I opened it to see what was inside. 
-     
-      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_14.png)
+      ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp10_10.png)
       
-      As you can see it a bunch of nothing. However, there is one hint that may help us out. The hint mentions rockyou.txt and sed which is used for searching, replacing, and inserting/deleting text in a .txt document. 
-      
-      Let's keep looking to see what else we find. I went farther into the directories and saw that there were two sub directories under user names of Anna and thomas. When opening anna's directory I didn't find anything. But, under thomas there is a file called .todo . 
-      
-      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_17.png)
-      
-     When I opened the .todo file it was essentially a todo list just as listed. Number 7 says that thomas needs to add an exclamation mark to his password. Now we know that he has an exclamation mark in his password. 
+1. **SSH**<br><br>
      
-      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_18.png)
-      
-1. **Rockyou.txt & sed**<br><br>
+     I then used the file that held the key and tried to login as the oscp user to gain access to the target            machine. But it didn't work out to well. So I had to find an alternate route.<br> 
      
-     We are going to use both rockyou.txt and sed to create a new wordlist that will have passwords containing exclamation marks. Use the command in the screenshot and name your new wordlist. If you can't find rockyou.txt try using locate. 
+     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp11_11.png)
      
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_19.png)
-     
-     As you can see, if you open the newly created wordlist file all of the passwords inside will all have exclamation marks. We will use this to try and crack the password to login for thomas. 
-     
-1. **Hydra**<br><br>
+1. **SSH 2.0**<br><br>
      
      We will now take the new wordlist that we created and use Hydra to try to crack the password for thomas's login. 
      

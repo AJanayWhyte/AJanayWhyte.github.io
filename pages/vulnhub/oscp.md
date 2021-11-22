@@ -85,7 +85,14 @@ Target IP Address: 192.168.1.108
      
     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp14_14.png)
     
-    Now that I have a new file with the secret.txt information decoded from base64 I then need to change to permissions so that owner/creater have read and write access but no       one else does. 
+    Now that I have a new file with the secret.txt information decoded from base64 I then need to change to permissions so that owner/creater have read and write access but no one else does.<br>
+    
+    ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp15_15.png)
+    
+    Then I retry ssh with the new file. 
+    
+    ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp16_16.png)
+    
 1. **Privilege Escalation**<br><br>
 
      Once I got into SSH with thomas's login information it wasn't allowing me to move around. It seems that the current shell is set to restricted. So after doing a bit of research I found that there was a way to change the restricted status by using vim.

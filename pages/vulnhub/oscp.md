@@ -22,19 +22,19 @@ Target IP Address: 192.168.1.108
 
      ![step2]({{ site.baseurl }}/images/vulnhubs/oscp/oscp2_2.png)
 
-     As we can see, there are 4 ports open. More importantly, two of those ports are 22 - ssh, and 80 - http. 
+     As we can see, there are 4 ports open. More importantly, two of those ports are 22 - ssh, and 80 - http.<br> 
 
-1. **Port 80**<br><br>
-     Let's see if we can gain access to a url by going to http://192.168.1.19 .
+1. **Nmap**<br><br>
+     I ran an nmap command to scan the target network to see what could be revealed.<br><br>
 
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_3.png)
+     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp3_3.png)
 
-     The url takes us to the Apache2 Ubuntu Default server page.
+     From the results I see that there are two ports that are open. Port 22 - ssh and port 80 - http. I also see        that there is a robots.txt and a disallow secret.txt.<br>
 
-1. **Dirsearch**<br><br>
-     I used Dirsearch to see if I could find any hidden directories attached to the url.
+1. **Port 80 - HTTP**<br><br>
+     Now that I know that port 80 is open I typed in the IP address to see what would show up in the browser.<br><br>
      
-     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_4.png)
+     ![step4]({{ site.baseurl }}/images/vulnhubs/oscp/oscp4_4.png)
      
      Looks like there is a ROBOTS.TXT. After trying to gain access to several times. I remembered the hint that        was given earlier. Case Sensitive. Trying robots.txt with all capital letters as it shows in the dirsearch        finding. I finally found results. 
      

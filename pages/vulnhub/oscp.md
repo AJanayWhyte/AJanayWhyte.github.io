@@ -13,63 +13,42 @@ Target IP Address: 192.168.1.108
 <hr>
 
 1. **The Target Machine**<br><br>
-     As the hint states above, we are given the target machine's IP address right away.<br><br>
+     As the hint states above, we are given the target machine's IP address right away.<br>
      ![step1]({{ site.baseurl }}/images/vulnhubs/oscp/oscp1_1.png)
 
 
 1.  **Netdiscover**<br><br>
-     Even though I know what the target machine's IP address, I still want to verify that I can find the target        machine through my attacking machine.<br><br>
+     Even though I know what the target machine's IP address, I still want to verify that I can find the target        machine through my attacking machine.<br>
 
      ![step2]({{ site.baseurl }}/images/vulnhubs/oscp/oscp2_2.png)
 
      As we can see, there are 4 ports open. More importantly, two of those ports are 22 - ssh, and 80 - http.<br> 
 
 1. **Nmap**<br><br>
-     I ran an nmap command to scan the target network to see what could be revealed.<br><br>
+     I ran an nmap command to scan the target network to see what could be revealed.<br>
 
      ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp3_3.png)
 
      From the results I see that there are two ports that are open. Port 22 - ssh and port 80 - http. I also see        that there is a robots.txt and a disallow secret.txt.<br>
 
 1. **Port 80 - HTTP**<br><br>
-     Now that I know that port 80 is open I typed in the IP address to see what would show up in the browser.<br><br>
+     Now that I know that port 80 is open I typed in the IP address to see what would show up in the browser.<br>
      
      ![step4]({{ site.baseurl }}/images/vulnhubs/oscp/oscp4_4.png)
      
-     Looks like there is a ROBOTS.TXT. After trying to gain access to several times. I remembered the hint that        was given earlier. Case Sensitive. Trying robots.txt with all capital letters as it shows in the dirsearch        finding. I finally found results. 
+     As I read through the page I see that there is another hint given. I now have the user name.<br>
      
-     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_5.png)
-     
-     Looks like there is an uploads directory. When I scroll down to the bottom of the page it looks like there is      a hash of some sort. 
-     
-     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_6.png)
-     
- 1. **Dirsearch - with hash**<br><br>
-     I took the hash that was discovered and added it to the end of the IP url. And     becuase I only used .txt extension during the first search I        added .php and .html as well. 
+ 1. **robots.txt**<br><br>
+     From there I went to the robots.txt extension. As found earlier in the nmap scan secret.txt is supposed to be      disallowed. But let's test it anyway.  
         
-     ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_7.png)
+     ![step5]({{ site.baseurl }}/images/vulnhubs/oscp/oscp5_5.png)
         
-     The new search has brought back several extension that include both php and html. Two of which include the newly found uploads directory. 
+ 1. **secret.txt**<br><br>
+     Now I see why secret.txt was supposed to be disallowed. It looks like there is encoded base64 hidden on this      page. So I will try to use it.  
      
-     Once I gained access to the uploads url I see that there is a browse and upload button. I also saw that the Dirsearch had an uploads.php so I'm going to assume that I should upload a .php file. So let's create a backdoor in.
+     ![step5]({{ site.baseurl }}/images/vulnhubs/oscp/oscp6_6.png)
      
-     ![step4]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_8.png)
-     
-     *Note: the current target IP address is different due to stopping and restarting the box.*
-     
- 1. **Php Reverse Shell**<br><br>
-
-     In order for us to gain access in to the webserver we will be using php-reverse-shell to create a backdoor. If you're not sure where to find this file try using the command "locate php-reverse-shell" and it should pop up. 
-     
-     ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_43.png)
-     
-     In order for the file to work properly we need to edit the information inside the file. Make a copy of the current file so you can keep your original and then edit the file using nano. 
-     
-     ![step5]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_44.png)
-     
-     Once inside of the php file we need to change the ip address and the port number. The ip address should be your own machine's ip address. choose a port number for the file to use. I chose port number 8888.
-
-1. **Uploading your file**
+1. **Base64 Decode**
 
      In order to verify that our backdoor file is working we need to set up a port listener by using netcat
      

@@ -77,10 +77,15 @@ Target IP Address: 192.168.1.108
  
      ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp12_12.png)
      
-     There are a few different things we are using to ensure that we can crack the password. 1. -l for login, 2. -p for password, the target ip address to use for ssh. As you can see the new wordlist is attached to -p as well as thomas's name for -l. This produces the password along with the login a little bit farther down. We cracked it! Now let's login as thomas!
+     I then use the cat command in conjunction with the tr command and then saved it as a new .txt file. The tr        command is used to remove unneeded spacing and characters inside of the text input into the file. The -d          option deletes characters in the first set from the output. And, '\n' creates a newline after n.<br>
      
-     *Note: the current target IP address is different due to stopping and restarting the box.*
+    ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp13_13.png)
+    
+    This then creates a new file. From there I created a new file again but this time decoded the base64 at the       same time. 
      
+    ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp14_14.png)
+    
+    Now that I have a new file with the secret.txt information decoded from base64 I then need to change to permissions so that owner/creater have read and write access but no       one else does. 
 1. **Privilege Escalation**<br><br>
 
      Once I got into SSH with thomas's login information it wasn't allowing me to move around. It seems that the current shell is set to restricted. So after doing a bit of research I found that there was a way to change the restricted status by using vim.

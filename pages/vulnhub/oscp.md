@@ -73,9 +73,9 @@ Target IP Address: 192.168.1.108
      
 1. **SSH 2.0**<br><br>
      
-     We will now take the new wordlist that we created and use Hydra to try to crack the password for thomas's login. 
-     
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_20.png)
+     I went back to the original base64 characters that were found from the secret.txt url. I then saved it into a      text file without decoding it first.<br>
+ 
+     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp12_12.png)
      
      There are a few different things we are using to ensure that we can crack the password. 1. -l for login, 2. -p for password, the target ip address to use for ssh. As you can see the new wordlist is attached to -p as well as thomas's name for -l. This produces the password along with the login a little bit farther down. We cracked it! Now let's login as thomas!
      

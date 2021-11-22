@@ -13,14 +13,14 @@ Target IP Address: 192.168.1.108
 <hr>
 
 1. **The Target Machine**<br><br>
-     As the hint states above, we are given the target machine's IP address right away.<br>
+     As the hint states above, we are given the target machine's IP address right away.<br><br>
      ![step1]({{ site.baseurl }}/images/vulnhubs/oscp/oscp1_1.png)
 
 
-1.  **Nmap**<br><br>
-     Now that we have identified our target IP we should run an nmap scan to see what information                       we can find on the target network. 
+1.  **Netdiscover**<br><br>
+     Even though I know what the target machine's IP address is I still want to verify that I can find the target      machine through my attacking machine.<br><br>
 
-     ![step2]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_2.png)
+     ![step2]({{ site.baseurl }}/images/vulnhubs/oscp/oscp2_2.png.png)
 
      As we can see, there are 4 ports open. More importantly, two of those ports are 22 - ssh, and 80 - http. 
 

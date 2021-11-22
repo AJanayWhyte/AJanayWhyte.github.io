@@ -55,7 +55,7 @@ Target IP Address: 192.168.1.108
      ![step4]({{ site.baseurl }}/images/vulnhubs/oscp/oscp7_7.png)
      ![step4]({{ site.baseurl }}/images/vulnhubs/oscp/oscp8_8.png)
      
-     The base64 decoded it seems to to be an SSH private key.<br>
+     The base64 decoded and it seems to to be an SSH private key.<br>
      
      ![step4]({{ site.baseurl }}/images/vulnhubs/oscp/oscp9_9.png)
      

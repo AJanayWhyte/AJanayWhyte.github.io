@@ -1,8 +1,9 @@
 ---
 layout: page
-title: InfoSec Prep: OSCP
+title: InfoSec Prep OSCP
 permalink: /oscp/
 ---
+
 [Click here to download Info Sec Prep: OSCP](https://www.vulnhub.com/entry/infosec-prep-oscp,508/)<br>
 
 Goal: use priviledge escalation to gain root access to the target machine.

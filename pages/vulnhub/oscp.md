@@ -6,8 +6,8 @@ permalink: /oscp/
 
 [Click here to download Info Sec Prep: OSCP](https://www.vulnhub.com/entry/infosec-prep-oscp,508/)<br>
 
-Goal: use priviledge escalation to gain root access to the target machine.
-Hint: The IP address to the target machine is given right away.
+Goal: use priviledge escalation to gain root access to the target machine.<br>
+Hint: The IP address to the target machine is given right away.<br>
 <hr>
 Target IP Address: 192.168.1.108
 <hr>

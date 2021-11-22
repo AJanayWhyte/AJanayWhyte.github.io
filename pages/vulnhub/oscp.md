@@ -99,55 +99,19 @@ Target IP Address: 192.168.1.108
 
      ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp17_17.png)
      
-    I then use a simple privilege escalation command to see if my privileges change.<br>
+    I then use a simple privilege escalation command to see if my privileges change. They have I am now root.<br>
     
     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp18_18.png)
-    
-    I then check my privileges again. Looks like I am now root.<br>
-    
-    ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp19_19.png)
      
 1. **Root Directory**<br><br>
 
      Now that I am root I change directories to the root directory. And then list what is inside. Looks like there is a flag.txt file which is probably what I need to give me the flag. 
      
-     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp20_20.png)
-     
-     I downloaded the suggester onto my machine and used scp to copy it onto the target machine. 
-     
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_28.png)
-     
-     After the copy transfer I saw that the file transfered successfully into the TMP folder on the target machine. 
-     
-      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_29.png)
-      
-      I ran the program and it brought back a list of exploits. The list goes from most likely to least likely. I used eBPF_verifier
-     
-      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_31.png)
-      
-      After finding an exploit. I downloaded it and then used gcc which is a c++ compiler to change the output of the file and then used scp to transfer a copy over to the target machine.
-      
-      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_34.png)
-      
-      Once I had access to the file on the target computer I then ran the exploit and the execution was successful. 
-      
-      ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_38.png)
-      
-1. **Root**<br><br>
-
-     After the exploit ran on the target machine I used the id command to see who I was. I DID IT! I AM ROOT!
-     
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_39.png)
-     
-     We now need to use a python script to traverse into the root folder
-     
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_40.png)
-     
-     After using the python script I was able to change into the root directory and list it's contents. 
-     
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_41.png)
-     
-     I finally found the root flag and opened it up. WE FOUND THE FLAG!
-     
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_42.png)
+     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp19_19.png)
+    
+   I then open flag.txt and there it is. The flag!
+   
+     I then check my privileges again. Looks like I am now root.<br>
+    
+    ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp20_20.png)
       

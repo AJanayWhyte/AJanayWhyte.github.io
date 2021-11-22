@@ -18,7 +18,7 @@ Target IP Address: 192.168.1.108
 
 
 1.  **Netdiscover**<br><br>
-     Even though I know what the target machine's IP address is I still want to verify that I can find the target      machine through my attacking machine.<br><br>
+     Even though I know what the target machine's IP address, I still want to verify that I can find the target        machine through my attacking machine.<br><br>
 
      ![step2]({{ site.baseurl }}/images/vulnhubs/oscp/oscp2_2.png.png)
 

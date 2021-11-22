@@ -13,7 +13,7 @@ Target IP Address: 192.168.1.108
 <hr>
 
 1. **The Target Machine**<br><br>
-     As the hint states above, we are given the target machine's IP address right away. 
+     As the hint states above, we are given the target machine's IP address right away.<br>
      ![step1]({{ site.baseurl }}/images/vulnhubs/oscp/oscp1_1.png)
 
 

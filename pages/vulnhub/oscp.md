@@ -89,25 +89,29 @@ Target IP Address: 192.168.1.108
     
     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp15_15.png)
     
-    Then I retry ssh with the new file. 
+    Then I retry ssh with the new file. And it worked this time!<br>
     
     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp16_16.png)
     
 1. **Privilege Escalation**<br><br>
 
-     Once I got into SSH with thomas's login information it wasn't allowing me to move around. It seems that the current shell is set to restricted. So after doing a bit of research I found that there was a way to change the restricted status by using vim.
+     Now that I am inside of the target machine, I need to see what kind of privilges I have. I use the id command and      it shows that I am apart of the group permissions.<br> 
 
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_23.png)
+     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp17_17.png)
      
-     After typing the statement in the screen shot press enter and then type :shell, then save and exit. You should now be able to change directories.
+    I then use a simple privilege escalation command to see if my privileges change.<br>
+    
+    ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp18_18.png)
+    
+    I then check my privileges again. Looks like I am now root.<br>
+    
+    ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp19_19.png)
      
-     I tried to transfer files over to the target machine. But I couldn't get anything to work. I even tried to transfer files through the uploads url. Nothing worked for me. So I had to go back to the drawing board.
-     
-1. **SCP**<br><br>
+1. **Root Directory**<br><br>
 
-     I found a method that uses SCP which allows you to transfer files through the ssh connection. Decided to use Linux exploit suggester to find an ways to exploit the target system. 
+     Now that I am root I change directories to the root directory. And then list what is inside. Looks like there is a flag.txt file which is probably what I need to give me the flag. 
      
-     ![step3]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_27.png)
+     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp20_20.png)
      
      I downloaded the suggester onto my machine and used scp to copy it onto the target machine. 
      

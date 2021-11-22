@@ -105,13 +105,11 @@ Target IP Address: 192.168.1.108
      
 1. **Root Directory**<br><br>
 
-     Now that I am root I change directories to the root directory. And then list what is inside. Looks like there is a flag.txt file which is probably what I need to give me the flag. 
+     Now that I am root I change directories to the root directory. And then list what is inside. Looks like there is a flag.txt file which is probably what I need to give me the flag.<br> 
      
      ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp19_19.png)
     
-   I then open flag.txt and there it is. The flag!
-   
-     I then check my privileges again. Looks like I am now root.<br>
+   I then open flag.txt and there it is. The flag!<br>
     
     ![step3]({{ site.baseurl }}/images/vulnhubs/oscp/oscp20_20.png)
       

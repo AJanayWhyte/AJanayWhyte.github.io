@@ -12,10 +12,9 @@ Hint: The IP address to the target machine is given right away.
 Target IP Address: 192.168.1.108
 <hr>
 
-1. **Netdiscover**<br><br>
-     We know our Target machine's Mac address. We need to do a netdiscover to find the IP address to the machine. 
-
-     ![step1]({{ site.baseurl }}/images/vulnhubs/funbox4/fb4_1.png)
+1. **The Target Machine**<br><br>
+     As the hint states above, we are given the target machine's IP address right away. 
+     ![step1]({{ site.baseurl }}/images/vulnhubs/oscp/oscp1_1.png)
 
 
 1.  **Nmap**<br><br>
